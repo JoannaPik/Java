@@ -5,9 +5,7 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.List;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
- 
 
-//github.com
 
 public class Kalkulator {
 	public static void main(String[] args) throws FileNotFoundException {
@@ -28,15 +26,9 @@ public class Kalkulator {
 			  Scanner odczyt2= new Scanner(System.in);
 			  nazwaPliku=odczyt2.next();
 			proba1.plik(nazwaPliku);
-		}
-		
-		
-		  
-		  
-		  
+		} 
 		  System.out.println("Koniec");
 		  System.exit(0);
-		// StringUtils.endsWith("dhsjd", "sdj");
 	  }
 	
 	

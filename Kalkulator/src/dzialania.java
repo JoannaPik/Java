@@ -6,7 +6,9 @@ import java.io.File;
 import java.io.FileNotFoundException;
 
 public class dzialania {
-
+/**
+ * Metoda obslugujaca dane pobierane z konsoli
+ */
 	public void konsola()
 	{
 		  List<String> lista= new ArrayList<String>();
@@ -60,8 +62,6 @@ public class dzialania {
 		liczby=liczby2;
 		int i=0;
 		while(dzialania.size()!=0&&i<dzialania.size())
-		
-		//for(int i=0;i<dzialania.size();i++)
 		{
 			if(liczby.size()>1)
 			{  
@@ -69,7 +69,6 @@ public class dzialania {
 				liczby.set(i, wynik);
 				liczby.remove(i+1);
 				dzialania.remove(i);
-				//System.out.println("Wynik: "+wynik);
 			}
 			
 		}
